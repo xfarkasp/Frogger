@@ -1,0 +1,32 @@
+canvas{
+    
+    border: 5px solid black;
+    top: 0%;
+    left: 30%;
+    position: absolute;
+    width: 650px;
+    height: 740px;
+    transform: translate(-50% -50%);
+    box-shadow: rgba(91, 240, 46, 0.4) 5px 5px, rgba(46, 195, 240, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(112, 3, 72, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+@import url('http://fonts.cdnfonts.com/css/arcade-classic');
+input {
+    position:absolute;
+    display: inline-block;
+    margin: 1.2rem auto;
+    border: none;
+    padding: 0;
+    width: 10.5ch;
+    background: repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/ 4ch 5px no-repeat;
+    font-family: 'ArcadeClassic', sans-serif;
+    font: 3.5rem 'ArcadeClassic';
+    color: antiquewhite;
+    letter-spacing: 0.5ch;
+    margin-left: 48.5%;
+    margin-top: 565px;
+  }
+  input:focus {
+    outline: none;
+    color: rgb(101, 255, 30);
+  }
+
